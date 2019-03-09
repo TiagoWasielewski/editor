@@ -1,0 +1,1 @@
+forfiles /P C:\xampp\htdocs\trabalhofinals\uploads\ /c "cmd /c del @path /q & rd @path /s /q"
